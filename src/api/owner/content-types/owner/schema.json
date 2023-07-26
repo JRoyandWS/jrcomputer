@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "owners",
+  "info": {
+    "singularName": "owner",
+    "pluralName": "owners",
+    "displayName": "Owner"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "kontak": {
+      "type": "string"
+    },
+    "social": {
+      "type": "text"
+    },
+    "address": {
+      "type": "richtext"
+    }
+  }
+}
